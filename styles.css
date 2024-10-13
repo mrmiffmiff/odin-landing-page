@@ -201,3 +201,15 @@ a,
     border-radius: 8px;
     background-color: inherit;
 }
+
+footer {
+    /* This whole thing is a bit scuffed lol */
+    align-self: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
