@@ -9,12 +9,12 @@ body {
     margin: 0;
 }
 
-.heroFull,
+.hero,
 footer {
     background-color: #1F2937;
 }
 
-.heroFull {
+.hero {
     padding: 10px 200px 150px;
 }
 
@@ -72,7 +72,7 @@ a,
     padding: 0;
 }
 
-input {
+.hero input {
     height: 40px;
     width: 110px;
     box-sizing: border-box;
@@ -156,4 +156,48 @@ input {
 .quotee {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.callWrapper {
+    height: 160px;
+    flex: auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 200px;
+}
+
+.callTextArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.callMainText {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.callSubText {
+    color: lightgrey;
+}
+
+.call input {
+    height: 40px;
+    width: 110px;
+    box-sizing: border-box;
+    color: #F9FAF8;
+    font-weight: 500;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: inherit;
 }
