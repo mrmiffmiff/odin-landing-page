@@ -90,3 +90,44 @@ input {
     align-items: center;
     padding: 100px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoTitle {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.infoGraphics {
+    display: flex;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.infoGraphicSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.infoGraphicPicture {
+    height: 160px;
+    width: 160px;
+    border: 5px solid #3882f6;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.infoGraphicSubtext {
+    padding: 0 15px;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
