@@ -131,3 +131,29 @@ input {
     font-size: 18px;
     color: grey;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25%;
+}
+
+.quoteWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteText {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    align-self: center;
+}
+
+.quotee {
+    align-self: flex-end;
+    font-weight: bold;
+}
